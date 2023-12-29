@@ -1,0 +1,8 @@
+2023/12/29 07:08:29 [emerg] 616#10284: no "events" section in configuration
+2023/12/29 07:13:19 [notice] 4316#2416: signal process started
+2023/12/29 07:13:19 [error] 4316#2416: OpenEvent("Global\ngx_reload_3860") failed (5: Access is denied)
+2023/12/29 07:15:26 [error] 6200#7820: *1 CreateFile() "C:\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/12/29 07:20:41 [emerg] 12768#14012: "stream" directive is not allowed here in C:\nginx/conf/nginx.conf:117
+2023/12/29 07:23:34 [error] 6200#7820: *2 CreateFile() "C:\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/12/29 07:24:42 [notice] 14960#1640: signal process started
+2023/12/29 07:52:39 [error] 3748#3968: *3 CreateFile() "C:\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.1.5, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.5", referrer: "http://192.168.1.5/"
